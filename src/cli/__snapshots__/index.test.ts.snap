@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CLI processes 4 total items from 2 pages with a page size of 2 1`] = `
+Array [
+  Object {
+    "description": "emittery",
+    "dt": "2019-09-24T00:57:46Z",
+    "extended": "Simple and modern async event emitter",
+    "tags": "github-starred,async,emitter,event-emitter,event-listener,javascript,nodejs,npm-package,promise",
+    "url": "https://github.com/sindresorhus/emittery",
+  },
+  Object {
+    "description": "async-sema",
+    "dt": "2019-09-21T16:47:07Z",
+    "extended": "Semaphore using \`async\` and \`await\`",
+    "tags": "github-starred,async,asynchronous,await,package,semaphore",
+    "url": "https://github.com/zeit/async-sema",
+  },
+  Object {
+    "description": "pure-bash-bible",
+    "dt": "2019-09-19T14:17:13Z",
+    "extended": "📖 A collection of pure bash alternatives to external processes.",
+    "tags": "github-starred,bash,bible,book,guide,handbook,how-to,learning,list,reference,script,shell,shell-scripts",
+    "url": "https://github.com/dylanaraps/pure-bash-bible",
+  },
+  Object {
+    "description": "chakra-ui",
+    "dt": "2019-09-05T21:49:10Z",
+    "extended": "⚡️Simple, Modular & Accessible UI Components for your React Applications",
+    "tags": "github-starred,a11y,accessible,chakra-ui,dark-mode,react,react-components,reactjs,ui-components,ui-library,uikit,wai-aria",
+    "url": "https://github.com/chakra-ui/chakra-ui",
+  },
+]
+`;

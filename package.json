@@ -1,0 +1,61 @@
+{
+  "name": "github-stars-to-pinboard",
+  "version": "0.1.0",
+  "description": "Sync Github Stars to Pinboard",
+  "main": "src/index.ts",
+  "repository": "git@github.com:aortbals/github-stars-to-pinboard.git",
+  "author": "Aaron Ortbals <aaron.ortbals@gmail.com> (https://github.com/aortbals)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "yarn build && yarn start",
+    "build": "tsc",
+    "pkg": "yarn build && yarn pkg:macos && yarn pkg:linux",
+    "pkg:macos": "pkg -t macos -o pkg/macos/github-stars-to-pinboard dist/index.js",
+    "pkg:linux": "pkg -t linux -o pkg/linux/github-stars-to-pinboard dist/index.js",
+    "test": "jest",
+    "scrub": "node scripts/scrub.js",
+    "lint": "eslint src/**/*.ts"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/debug": "^4.1.5",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "@types/node-fetch": "^2.5.2",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
+    "dotenv": "^8.1.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "jest-playback": "^2.0.2",
+    "lint-staged": "^9.3.0",
+    "pkg": "^4.4.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "async-sema": "^3.0.1",
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "node-fetch": "^2.6.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn scrub && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,md}": [
+      "yarn lint",
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  }
+}
