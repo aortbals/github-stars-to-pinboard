@@ -1,0 +1,22 @@
+{
+  "scope": "https://api.pinboard.in:443",
+  "method": "GET",
+  "path": "/v1/posts/add?auth_token=REDACTED&format=json&url=https%3A%2F%2Fgithub.com%2Fchakra-ui%2Fchakra-ui&description=chakra-ui&extended=%E2%9A%A1%EF%B8%8FSimple%2C%20Modular%20%26%20Accessible%20UI%20Components%20for%20your%20React%20Applications&dt=2019-09-05T21%3A49%3A10Z&tags=github-starred%2Ca11y%2Caccessible%2Cchakra-ui%2Cdark-mode%2Creact%2Creact-components%2Creactjs%2Cui-components%2Cui-library%2Cuikit%2Cwai-aria",
+  "body": "",
+  "status": 200,
+  "response": {
+    "result_code": "done"
+  },
+  "rawHeaders": [
+    "Date",
+    "Tue, 24 Sep 2019 20:39:42 GMT",
+    "Server",
+    "Apache/2.4.7 (Ubuntu)",
+    "Content-Length",
+    "23",
+    "Connection",
+    "close",
+    "Content-Type",
+    "text/plain; charset=utf-8"
+  ]
+}

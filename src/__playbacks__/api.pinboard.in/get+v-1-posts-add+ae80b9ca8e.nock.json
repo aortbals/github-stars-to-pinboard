@@ -1,0 +1,22 @@
+{
+  "scope": "https://api.pinboard.in:443",
+  "method": "GET",
+  "path": "/v1/posts/add?auth_token=REDACTED&format=json&url=https%3A%2F%2Fgithub.com%2Fsindresorhus%2Femittery&description=emittery&extended=Simple%20and%20modern%20async%20event%20emitter&dt=2019-09-24T00%3A57%3A46Z&tags=github-starred%2Casync%2Cemitter%2Cevent-emitter%2Cevent-listener%2Cjavascript%2Cnodejs%2Cnpm-package%2Cpromise",
+  "body": "",
+  "status": 200,
+  "response": {
+    "result_code": "done"
+  },
+  "rawHeaders": [
+    "Date",
+    "Tue, 24 Sep 2019 20:39:30 GMT",
+    "Server",
+    "Apache/2.4.7 (Ubuntu)",
+    "Content-Length",
+    "23",
+    "Connection",
+    "close",
+    "Content-Type",
+    "text/plain; charset=utf-8"
+  ]
+}

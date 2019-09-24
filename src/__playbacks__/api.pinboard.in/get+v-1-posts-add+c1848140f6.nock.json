@@ -1,0 +1,22 @@
+{
+  "scope": "https://api.pinboard.in:443",
+  "method": "GET",
+  "path": "/v1/posts/add?auth_token=REDACTED&format=json&url=https%3A%2F%2Fgithub.com%2Fdylanaraps%2Fpure-bash-bible&description=pure-bash-bible&extended=%F0%9F%93%96%20A%20collection%20of%20pure%20bash%20alternatives%20to%20external%20processes.&dt=2019-09-19T14%3A17%3A13Z&tags=github-starred%2Cbash%2Cbible%2Cbook%2Cguide%2Chandbook%2Chow-to%2Clearning%2Clist%2Creference%2Cscript%2Cshell%2Cshell-scripts",
+  "body": "",
+  "status": 200,
+  "response": {
+    "result_code": "done"
+  },
+  "rawHeaders": [
+    "Date",
+    "Tue, 24 Sep 2019 20:39:38 GMT",
+    "Server",
+    "Apache/2.4.7 (Ubuntu)",
+    "Content-Length",
+    "23",
+    "Connection",
+    "close",
+    "Content-Type",
+    "text/plain; charset=utf-8"
+  ]
+}

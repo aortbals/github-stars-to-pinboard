@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PinboardAPIClient #listReposStarredByAuthenticatedUser can request a single page with page size 1`] = `
+Object {
+  "result_code": "done",
+}
+`;
