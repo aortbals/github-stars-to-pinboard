@@ -1,4 +1,4 @@
-# Github Stars to Pinboard
+# Github Stars to Pinboard ![Tests Status](https://github.com/aortbals/github-stars-to-pinboard/workflows/Tests/badge.svg)
 
 `github-stars-to-pinboard` is a command line utility for syncing GitHub starred repos to Pinboard.
 
